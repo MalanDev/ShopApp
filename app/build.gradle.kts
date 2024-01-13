@@ -81,14 +81,14 @@ dependencies {
     //Coil
     implementation("io.coil-kt:coil-compose:2.5.0")
     //dagger hilt
-    implementation("com.google.dagger:hilt-android:2.44")
-    kapt("com.google.dagger:hilt-android-compiler:2.44")
+    implementation ("com.google.dagger:hilt-android:2.50")
+    kapt ("com.google.dagger:hilt-compiler:2.50")
     implementation ("androidx.hilt:hilt-navigation-compose:1.1.0")
+
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
 
 }
 
-// Allow references to generated code
 kapt {
     correctErrorTypes = true
 }
-
